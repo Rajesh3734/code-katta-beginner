@@ -1,2 +1,3 @@
 a=int(input())
-n=
+n=((a*(a+1))/2)
+print(n)
