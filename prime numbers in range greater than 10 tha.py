@@ -1,7 +1,7 @@
 (a,b)=map(int,input().split())
 l=[]
 for i in range(a+1,b):
-  for j in range(2,b//2):
+  for j in range(1,b//2):
     if((i%j==0)):
       break
   else:
