@@ -10,7 +10,6 @@ if((n>=1)and(d<=100000)):
         else:
             sum=sum+d
             l.append(sum)
-print(l)
 for j in l:
     sumation_of_n=sumation_of_n+j
 print(sumation_of_n)
