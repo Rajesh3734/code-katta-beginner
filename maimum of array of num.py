@@ -72,3 +72,7 @@ https://www.datacamp.com/community/tutorials/python-list-comprehension
     https://www.google.com/search?rlz=1C1GCEU_enIN858IN858&ei=ynYwXY7qFIiBvQT8laOgBw&q=how+to+getmultiple+inputs+of+integer+type+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&oq=how+to+getmultiple+inputs+of+integer+type+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&gs_l=psy-ab.3..0i71l8.5672.8435..8921...0.0..0.0.0.......5....1..gws-wiz.5GxGq-CS5xY&ved=0ahUKEwiO9-OEzL7jAhWIQI8KHfzKCHQQ4dUDCAo&uact=5
       https://www.google.com/search?rlz=1C1GCEU_enIN858IN858&ei=T3QwXa3SKMuA9QOOsoqYCA&q=how+to+feet+multiple+inputs+of+integer+type+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&oq=how+to+feet+multiple+inputs+of+integer+type+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&gs_l=psy-ab.3..0i71l8.16020.31133..41425...0.0..0.0.0.......25....1..gws-wiz.9SF2hFl7gfg&ved=0ahUKEwjttZLWyb7jAhVLQH0KHQ6ZAoMQ4dUDCAo&uact=5
         https://www.google.com/search?q=how+to+feet+multiple+inputs+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&rlz=1C1GCEU_enIN858IN858&oq=how+to+feet+multiple+inputs+to+a+list+in+a+same+line+using+list+comphrenhension+and+with+a+specific+range&aqs=chrome..69i57.83209j0j8&sourceid=chrome&ie=UTF-8
+N=int(input('How many cases will you calculate?\n'))
+print('Input parameters separated by spaces:')
+entr = [list(int(x) for x in input().split(" ",N)) for i in range(N)]
+print(entr)
