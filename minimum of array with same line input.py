@@ -1,3 +1,4 @@
 N=int(input())
-l=[int(x)for x in input().split(" ",N-1)]
-print(max(l),l)
+if((N>1) and (N<=10000)):
+  l=[int(x)for x in input().split(" ",N-1)]
+print(max(l))
